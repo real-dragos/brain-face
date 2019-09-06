@@ -1,0 +1,12 @@
+.image-ranking {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.image-ranking p {
+    margin: 0;
+}
+
+.rank {
+    font-size: 2.5rem;
+}

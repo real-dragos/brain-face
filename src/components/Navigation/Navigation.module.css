@@ -1,0 +1,44 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.visible-nav{
+    background: #000;
+    transition: all 0.5s;
+}
+
+.navigation ul{
+    margin: 0 20px;
+    padding: 0;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 2rem;
+    margin: 10px;
+    
+}
+
+.nav-item > a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: rgba(255,255,255,0.75);
+}
+
+.right{
+    align-self: flex-end;
+}
+
+.left{
+    align-self: flex-start;
+}

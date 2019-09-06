@@ -1,0 +1,42 @@
+.AuthenticationPage{
+    background: #fff;
+    max-width: 600px;
+    width: 90%;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px #000 solid;
+    overflow: hidden;
+    margin-top: 8vh;
+    box-shadow: 3px 3px 10px #000;
+}
+
+.form-tabs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px 1px 0 1px #000 solid;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.form-tabs > div {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #bbb;
+    cursor: pointer;
+}
+
+.form-tabs .selected {
+    background: #fff;
+    color: #000;
+    border-radius: 5px 5px 0 0;
+    cursor: initial;
+}
+
+.form-wrapper{
+    border-radius: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.inputForm{
+    width: 100%;
+    padding: 10px;
+}
+
+.inputForm > label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.inputForm > input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: none;
+    width: 70%;
+}
+
+.inputForm > input:focus {
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+}
