@@ -3,7 +3,7 @@
 Maybe 'Brain Face' is not the most suitable name for a web application. However, it is the first web application that I made on my own and I can't really call it simple. It is a full-stack application that contains a lot of features that you will encounter in most web applications. Brain Face allows a user to create an account and to identify the faces of persons in various images. It also keeps track of the number of images submitted by every user (This can be used to limit the number of pictures someone submits in a period of time or to create a ranking system that will encourage the users to submit more).
 The purpose of this project isn't that of creating a product or service for others. I created it in order to learn and to get a bigger picture of what it means to be a full-stack developer. I know that there are lots of things to improve at this application and I have even more things to learn, but I can say that it is a milestone on my journey.
 
-The application is also deployed on [Heroku](https://dashboard.heroku.com/apps/brain-face-137).
+The application is also deployed on [Heroku](https://brain-face-137.herokuapp.com).
 
 ## Technologies
 
